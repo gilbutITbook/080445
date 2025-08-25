@@ -1,0 +1,16 @@
+### 지시
+다음 입력에 있는 XML을 INI 형식으로 변환해 줘.
+### 출력 예시   
+[Apple]
+x=30
+y=59
+[Pear]
+x=99
+y=60
+### 입력 
+<configure>
+ <window title="Apple"><params x="30" y="59"></window>
+ <window title="Pear"><params x="99" y="60"></window>
+ <window title="Orange"><params x="10" y="20"></window>
+ <window title="Melon"><params x="200" y="300"></window>
+</configure>

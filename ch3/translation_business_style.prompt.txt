@@ -1,0 +1,13 @@
+### 지시 
+다음 입력(영문)을 한국어로 번역해 줘.
+### 조건
+상대에게 실례되지 않도록, 비즈니스 문장 스타일로 출력해 줘. 
+### 입력
+Dear Sir/Madam,
+We have booked a room of your hotel through your website. 
+Could you please reconfirm our booking?
+- 1 twin room, 2 beds
+- Check-in: October 1
+- Check-out: October 3
+- Breakfast included
+Best regards,

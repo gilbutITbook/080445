@@ -1,0 +1,8 @@
+### 지시 
+아래에 입력한 문장을 요약해줘.
+단, 초보자도 이해하기 쉬운 한국어로 요약해.
+### 입력 
+A large language model (LLM) is a type of machine learning model designed for natural language processing tasks such as language generation. LLMs are language models with many parameters, and are trained with self-supervised learning on a vast amount of text.
+
+The largest and most capable LLMs are generative pretrained transformers (GPTs). Modern models can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained in. 
+ 

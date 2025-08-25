@@ -1,0 +1,5 @@
+### 지시 
+다음 입력 문장을 부산 사투리로 번역해 줘.
+### 입력 
+Do not eat the food of a stingy person; Do not crave his delicacies, For he is like one 
+keeping accounts. "Eat and drink," he says to you, but he does not mean it.
