@@ -1,0 +1,32 @@
+### 전제: 
+오늘은 2024년 7월 10일이야.
+### 지시: 
+나는 오늘 25살 5개월이 되었어.
+여동생은 나보다 5살 1달이 더 어려.
+여동생은 언제 태어났을까?
+파이썬 프로그램을 작성해 줘.
+### 출력예시: 
+{“birth”: “YYYY/MM/DD”}
+### 힌트:
+Q: 오늘이 2024년 7월 10일일 때, 24살 1개월 된 사람의 생일은 언제일까?
+# 24살 1개월인 사람의 생일은 오늘로부터 24년 1개월 전의 날짜이다.
+birth_of_date = datetime(2024, 7, 10) - relativedelta(years=24, month=1)
+# YYYY/MM/DD 형식으로 출력
+print(birth_of_date.strftime('%Y/%m/%d')) 
+A: 2000/6/10
+Q: 오늘은 2024년 7월 10일인데, 21년 1개월 전을 a라고 하면, 그 후 10개월 후의 날짜 b는 언제일까?
+# 오늘 날짜 설정
+today = datetime(2024, 7, 10)
+# 오늘로부터 21년 1개월 전을 a로 설정한다.
+a = today - relativedelta(years=21, months=1)
+# a의 10개월 후를 계산
+b = a + relativedelta(month=10)
+# 답을 YYYY/MM/DD로 출력
+print(b.strftime('%Y/%m/%d'))
+A: 2003/10/10
+Q: 여동생은 5살 아래야. 내가 2000년생이라면 여동생은 몇 년생일까?
+# 내가 태어난 해를 지정
+my_birth_year = 2000
+# 여동생은 5살 아래이므로 +5를 한다.
+sister_age = my_birth_year + 5
+A: 2005

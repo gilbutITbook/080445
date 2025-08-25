@@ -1,0 +1,7 @@
+더미 데이터를 상상해서 다음 SQL을 실행하고 결과를 출력해 줘. 
+```sql
+SELECT name, age, email
+FROM users
+WHERE gender='woman'
+LIMIT 10;
+```

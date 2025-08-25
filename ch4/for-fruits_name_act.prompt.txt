@@ -1,0 +1,4 @@
+아래 가상 프로그램대로 행동해줘
+- for i in range(5):
+    - name=과일 이름을 생각한다
+    - print(i+1, name) 

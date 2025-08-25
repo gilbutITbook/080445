@@ -1,0 +1,5 @@
+아래 가상 프로그램을 따라서 생각해 줘.
+- for i in range(3): 
+    - idea = 새로운 친구를 사귈 수 있는 아이디어 생각하기 
+    - point = idea 실행의 용이성을 1-10으로 평가 
+    - print(f'{point}점: {idea}')

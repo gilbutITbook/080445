@@ -1,0 +1,6 @@
+다음 SQL의 출력 결과를 생각해 줘.
+
+SELECT 국가나 지역, 인구 
+FROM 세계인구순위 
+ORDER BY 인구 DESC
+LIMIT 10;
