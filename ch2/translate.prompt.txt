@@ -1,0 +1,6 @@
+### 지시
+한국어로 번역해줘.
+### 입력 
+Keep on asking, and it will be given you; keep on seeking, and you will find; keep on 
+knocking, and it will be opened to you
+### 출력 

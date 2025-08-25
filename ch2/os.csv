@@ -1,0 +1,10 @@
+﻿OS,개발사,특징
+Windows,Microsoft,데스크톱용으로 큰 인기를 자랑한다.
+macOS,Apple,직관적인 조작성을 가지고 있으며 아이폰 등과의 연동도 편리하다.
+Ubuntu,Canonical,오픈소스 기반으로 무료로 사용할 수 있으며 서버 및 개발 환경에서도 많이 쓰인다.
+Fedora,Red Hat,최신 기술을 빠르게 도입하며 보안과 안정성이 뛰어나다.
+Debian,Debian Project,안정성과 오픈소스 철학을 중시하는 리눅스 배포판이다.
+Arch Linux,Arch Linux Community,사용자가 직접 설정하는 방식으로 유연성과 경량성이 뛰어나다.
+openSUSE,SUSE,기업용 및 일반 사용자용으로 모두 적합하며 관리 도구가 강력하다.
+Zorin OS,Zorin Group,Windows 사용자에게 친숙한 인터페이스를 제공하는 리눅스 배포판이다.
+Linux Mint,Community,Ubuntu 기반으로 사용자 친화적이며 가벼운 데스크톱 환경을 제공한다.
