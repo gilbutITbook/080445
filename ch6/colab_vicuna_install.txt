@@ -1,0 +1,4 @@
+# 패키지 설치하기 
+! pip install llama-cpp-python==0.2.13
+# Vicuna 7B 모델 다운로드하기 
+! wget https://huggingface.co/TheBloke/vicuna-7B-v1.5-GGUF/resolve/main/vicuna-7b-v1.5.Q4_0.gguf
