@@ -1,0 +1,18 @@
+Sub ConvertXLSXtoCSV_Simple()
+    Dim fPath As String, fName As String
+    fPath = "C:\Your\Folder\Path\"  ' ← 여기를 실제 폴더 경로로 바꿔줘
+    fName = Dir(fPath & "*.xlsx")
+
+    Application.DisplayAlerts = False
+    Do While fName <> ""
+        Workbooks.Open fPath & fName
+        ActiveWorkbook.Sheets(1).Copy
+        ActiveWorkbook.SaveAs fPath & Replace(fName, ".xlsx", ".csv"), xlCSV
+        ActiveWorkbook.Close False
+        Workbooks(fName).Close False
+        fName = Dir
+    Loop
+    Application.DisplayAlerts = True
+
+    MsgBox "변환 완료!"
+End Sub

@@ -1,0 +1,18 @@
+### 지시:
+파이썬과 셀레니움을 사용하여 크롬 브라우저를 자동 제어할 거야.
+다음 절차에 따라 웹사이트에 로그인하고 링크를 클릭해.
+
+### 조건: 
+셀레니움 버전은 4.14 이상일 것.
+크롬 WebDriver는 자동으로 설치될 것.
+
+### 정보: 
+1. 로그인에 필요한 정보
+- URL: https://uta.pw/sakusibbs/users.php?action=login
+- input 태그(Selector='#user')에 'book-prompt' 입력
+- input 태그(Selector='#pass')에 '1LUSwKxrsc6WKk1y' 입력 
+- 버튼 (Selector=#loginForm input[type=submit])을 클릭
+2. 내 페이지로 이동
+- URL: https://uta.pw/sakusibbs/users.php?user_id=2045
+3. 링크 클릭
+- Label: 一覧をCSVでダウンロード

@@ -1,0 +1,36 @@
+Sub GenerateInvitationsAsPDF()
+    Dim wsList As Worksheet
+    Dim wsTemplate As Worksheet
+    Dim lastRow As Long
+    Dim i As Long
+    Dim inviteeName As String
+    Dim savePath As String
+    Dim pdfName As String
+
+    ' 시트 참조
+    Set wsList = ThisWorkbook.Sheets("Sheet1")
+    Set wsTemplate = ThisWorkbook.Sheets("Sheet2")
+
+    ' 명단의 마지막 행 찾기
+    lastRow = wsList.Cells(wsList.Rows.Count, "A").End(xlUp).Row
+
+    ' 저장 경로 (현재 파일과 같은 폴더에 저장)
+    savePath = ThisWorkbook.Path & "\"
+
+    ' 반복문: 명단을 순회
+    For i = 2 To lastRow  ' A2부터 시작한다고 가정
+        inviteeName = wsList.Cells(i, 1).Value
+        
+        ' 템플릿에 이름 넣기
+        wsTemplate.Range("B3").Value = inviteeName
+        
+        ' 파일 이름 만들기
+        pdfName = savePath & "초대장_" & inviteeName & ".pdf"
+        
+        ' PDF로 저장
+        wsTemplate.ExportAsFixedFormat Type:=xlTypePDF, Filename:=pdfName, Quality:=xlQualityStandard
+        
+    Next i
+
+    MsgBox "PDF 초대장 생성 완료!", vbInformation
+End Sub
